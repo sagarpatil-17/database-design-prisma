@@ -29,7 +29,7 @@ Before running this project, ensure you have the following installed:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/sagarpatil-17/database-design-prisma.git
-cd prisma-mysql-practice
+cd database-design-prisma
 ```
 
 ### 2. Install Dependencies

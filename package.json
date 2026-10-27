@@ -9,11 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
-    "@types/node": "^26.6.5",
-    "prisma": "^7.10.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^7.0.2"
+    "prisma": "^7.10.1"
+  },
+  "dependencies": {
+    "@prisma/adapter-mariadb": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "mariadb": "^3.5.4"
   }
 }
